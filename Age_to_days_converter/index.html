@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age to days Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Convert Age into Days</h3>
+
+
+        <div class="DOB">
+          <h4>Enter Your DOB</h4>
+          <div class="fields">
+            <div class="date innputs">             
+              <input type="date" min="1" id="dateofbirth" placeholder="Date" required>
+            </div>          
+         </div> 
+        </div>
+
+        <div class="current">
+          <h4>Enter Current Date</h4>
+         <div class="fields">
+          <div class="date innputs">         
+            <input type="date"  min="1" id="currentdate" placeholder="Date" required>
+           </div>          
+         </div>  
+        </div> 
+        
+        <button onclick="convert()">Convert</button>
+
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
